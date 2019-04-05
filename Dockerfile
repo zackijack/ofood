@@ -1,5 +1,5 @@
 # Build Stage
-FROM zackijack/alpine-golang-build-image:latest:1.11.6 AS build-stage
+FROM zackijack/alpine-golang-build-image:latest AS build-stage
 
 LABEL app="build-ofood"
 LABEL REPO="https://github.com/zackijack/ofood"
